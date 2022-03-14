@@ -1,0 +1,111 @@
+body{
+	font-family:sans serif ;
+	padding: 0px;
+	margin: 0px;
+	color:white ;
+	background: url(background.png);
+	border: black;
+}
+body .page{
+	margin: 10px 10px;
+}
+/*Barre de navigation*/
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between ;
+	position:sticky ;
+	top: 0px;
+	background-color: hotpink;
+	padding:-10px -10px ;
+	margin:-10 auto;
+	color:black ;
+	background-position: center;
+}
+nav .onglet{
+	display: flex;
+	flex-wrap: wrap;
+	margin margin-top: 30px;
+	color: white;
+}
+nav .buttons button{
+	padding: 20px 10px;
+	margin-right: 10px;
+	color: white;
+	background-color:hotpink;
+	border: hotpink;
+	cursor: pointer;
+}
+.buttons button:hover{
+	background-color: deeppink;
+}
+header{
+	color: deeppink;
+	text-align: center;
+	
+	margin-top: -250px;
+}
+header h1{
+	font-size: 60px;
+	background: url(rainbow.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20% 20%;
+	margin-top:-300;
+}
+p{
+	font-family: cursive;
+}
+ div figure{
+ 	display:inline-block;
+ 	margin: 5px 10px;
+}
+figure figcaption{
+	position: relative;
+	background-color: black;
+	opacity: 75%;
+	color: white;
+	margin-top: -20px;
+	text-align: center;
+}
+footer{
+	color: black;
+	box-shadow:0px 3px 20px rgb(36, 34, 34);
+	margin-top: -400px;
+	margin-left: 80px;
+	margin-right: 80px;
+	padding: 10px 300px;
+	border-color:black;
+}
+footer h5{
+	color: deeppink;
+	font-family: cursive;
+}
+/* footer */
+#carte{
+	float: right;
+	margin-top: -450px;
+	margin-right:60px ;
+
+}
+/* footer */
+.end{
+ background:hotpink;
+ text-align: right;
+ margin: 10px;
+ padding: 30px;
+ margin-top: 20px;
+ wx
+}
+div button{
+	background-color: deeppink;
+	border-style: hidden;
+	margin: 10px;
+	padding: 10px;
+}
+	
+
+
+
+
+
